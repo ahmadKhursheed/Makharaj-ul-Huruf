@@ -2,7 +2,9 @@ package com.example.makharaj_ul_huruf;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -23,5 +25,15 @@ public class MainActivity2 extends AppCompatActivity {
         btn5=(Button)findViewById(R.id.button5);
         btn6=(Button)findViewById(R.id.button6);
         btn7=(Button)findViewById(R.id.button7);
+
+
+
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent();
+            }
+        });
     }
 }
