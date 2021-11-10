@@ -24,15 +24,65 @@ public class MainActivity2 extends AppCompatActivity {
         btn4=(Button)findViewById(R.id.button4);
         btn5=(Button)findViewById(R.id.button5);
         btn6=(Button)findViewById(R.id.button6);
-        btn7=(Button)findViewById(R.id.button7);
+        btn7=(Button)findViewById(R.id.button2);
 
 
 
 
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Halqiyah");
+                startActivity(newintent);
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Lahatiyah");
+                startActivity(newintent);
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Shajariyah");
+                startActivity(newintent);
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Tarfiyah");
+                startActivity(newintent);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Niteeyah");
+                startActivity(newintent);
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Lisaveyah");
+                startActivity(newintent);
+            }
+        });
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent=new Intent();
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
+                newintent.putExtra("button", "Ghunna");
+                startActivity(newintent);
             }
         });
     }
