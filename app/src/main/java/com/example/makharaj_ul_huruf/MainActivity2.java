@@ -49,7 +49,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
-                newintent.putExtra("button", "Shajariyah");
+                newintent.putExtra("button", "Shajariyah-Haafiyah");
                 startActivity(newintent);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
-                newintent.putExtra("button", "Niteeyah");
+                newintent.putExtra("button", "Nit-eeyah");
                 startActivity(newintent);
             }
         });
