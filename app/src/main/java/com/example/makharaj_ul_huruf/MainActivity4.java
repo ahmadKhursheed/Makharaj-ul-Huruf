@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class MainActivity4 extends AppCompatActivity {
 
 
-    TextView head;
+    TextView heading;
     ImageView img1,img2;
 
     @Override
@@ -20,8 +20,8 @@ public class MainActivity4 extends AppCompatActivity {
         String BtnName = getIntent().getStringExtra("button");
         img1=findViewById(R.id.imageView2);
         img2=findViewById(R.id.imageView3);
-        head=findViewById(R.id.textView);
-        head.setText(BtnName.toString());
+        heading=findViewById(R.id.textView);
+        heading.setText(BtnName.toString());
 
 
         if (BtnName.equals("Halqiyah")) {
