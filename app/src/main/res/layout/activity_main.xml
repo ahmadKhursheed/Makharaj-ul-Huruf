@@ -4,57 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
-    tools:context=".MainActivity">
+    android:background="#201E1E"
+    tools:context=".MainActivity" >
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="149dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="93dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="248dp"
         android:background="#F8F1F1"
         android:backgroundTint="#0C0C0C"
         android:text="Learning"
-        android:textColor="#546E7A"
+        android:textColor="#FBFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="149dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="140dp"
         android:background="#F8F1F1"
         android:backgroundTint="#0C0C0C"
         android:text="Attempt Quiz"
-        android:textColor="#546E7A"
+        android:textColor="#FBFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="77dp"
         android:background="#F8F1F1"
         android:backgroundTint="#0C0C0C"
-        android:text="Repositery Info"
-        android:textColor="#546E7A"
+        android:text="About Info"
+        android:textColor="#FBFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
