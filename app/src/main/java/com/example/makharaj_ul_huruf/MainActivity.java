@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-    Button btn,btn1,btn2;
+    Button button,button1,button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        btn=(Button)findViewById(R.id.button);
-        btn1=(Button)findViewById(R.id.button2);
-        btn2=(Button)findViewById(R.id.button8);
-        btn.setOnClickListener(new View.OnClickListener() {
+        button=(Button)findViewById(R.id.button);
+        button1=(Button)findViewById(R.id.button2);
+        button2=(Button)findViewById(R.id.button8);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,MainActivity2.class);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this, MainActivity3.class);
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,aboutInfo.class);
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,aboutInfo.class);

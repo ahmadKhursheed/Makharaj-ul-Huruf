@@ -11,7 +11,7 @@ import android.widget.Button;
 public class aboutInfo extends AppCompatActivity {
 
 
-    Button btn;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +19,9 @@ public class aboutInfo extends AppCompatActivity {
         setContentView(R.layout.activity_about_info);
 
 
-        btn=(Button)findViewById(R.id.button9);
+        button=(Button)findViewById(R.id.button9);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Uri uri = Uri.parse("https://github.com/ahmadKhursheed/Makharaj-ul-Huruf");

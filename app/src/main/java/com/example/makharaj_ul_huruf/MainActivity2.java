@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity2 extends AppCompatActivity {
 
 
-    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7;
+    Button button1,button2,button3,button4,button5,button6,button7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,18 +18,18 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 
-        btn1=(Button)findViewById(R.id.button1);
-        btn2=(Button)findViewById(R.id.button7);
-        btn3=(Button)findViewById(R.id.button3);
-        btn4=(Button)findViewById(R.id.button4);
-        btn5=(Button)findViewById(R.id.button5);
-        btn6=(Button)findViewById(R.id.button6);
-        btn7=(Button)findViewById(R.id.button2);
+        button1=(Button)findViewById(R.id.button1);
+        button2=(Button)findViewById(R.id.button7);
+        button3=(Button)findViewById(R.id.button3);
+        button4=(Button)findViewById(R.id.button4);
+        button5=(Button)findViewById(R.id.button5);
+        button6=(Button)findViewById(R.id.button6);
+        button7=(Button)findViewById(R.id.button2);
 
 
 
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
@@ -37,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        btn3.setOnClickListener(new View.OnClickListener() {
+        button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
@@ -45,7 +45,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        btn6.setOnClickListener(new View.OnClickListener() {
+        button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
@@ -53,7 +53,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        btn7.setOnClickListener(new View.OnClickListener() {
+        button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
@@ -61,7 +61,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        btn5.setOnClickListener(new View.OnClickListener() {
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
@@ -69,7 +69,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        btn4.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
@@ -77,7 +77,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        btn1.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent newintent= new Intent(MainActivity2.this,MainActivity4.class);
