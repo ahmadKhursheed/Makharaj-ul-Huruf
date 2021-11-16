@@ -63,7 +63,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         TextView tv0 = new TextView(this);
 
-        tv0.setText("Corrected : " + String.valueOf(count));
+        tv0.setText("Corrected: " + String.valueOf(count));
         tv0.setTextSize(25);
         tv0.setTypeface(null, Typeface.BOLD);
         tbRow.addView(tv0);
@@ -74,7 +74,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         tv0 = new TextView(this);
 
-        tv0.setText("Wrong : " + String.valueOf(10-count));
+        tv0.setText("Wrong: " + String.valueOf(10-count));
         tv0.setTextSize(25);
         tv0.setTypeface(null, Typeface.BOLD);
         tbRow.addView(tv0);
@@ -246,7 +246,6 @@ public class MainActivity3 extends AppCompatActivity {
 
         submit = new Button(this);
         submit.setText("Submit");
-//        submit.setId(101);
         tbRow = new TableRow(this);
         tbRow.addView(submit);
         tbLayout.addView(tbRow);
